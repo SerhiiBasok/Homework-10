@@ -1,4 +1,4 @@
-import iziToast from `iziToast`;
+import iziToast from 'iziToast';
 import 'iziToast/dist/css/iziToast.min.css';
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -46,5 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       }
     );
+    form.reset();
   });
 });
