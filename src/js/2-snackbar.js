@@ -1,5 +1,5 @@
-import iziToast from 'iziToast';
-import 'iziToast/dist/css/iziToast.min.css';
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
 
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.querySelector('.form');
